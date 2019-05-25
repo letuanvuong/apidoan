@@ -8,7 +8,7 @@ const Pack = require('./../../package')
 config.web = {
   name: Pack.name,
   swagger: {
-    host: 'localhost:9002',
+    host: 'https://boiling-plateau-83616.herokuapp.com:9002',
     schemes: ['http']
   },
   connection: {
@@ -25,7 +25,7 @@ config.web = {
     }
   },
   db: {
-    uri: 'mongodb://127.0.0.1:27017/db_demo_local'
+    uri: 'mongodb+srv://vuong:01686741583@doan-qutxk.mongodb.net/test?retryWrites=true'
   },
   redisOptions: {
     host: '127.0.0.1', // 13.228.4.248
