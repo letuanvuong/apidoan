@@ -25,7 +25,7 @@ config.web = {
     }
   },
   db: {
-    uri: 'mongodb+srv://vuong:Tuanvuong@96@doan-qutxk.mongodb.net/dbdoan?retryWrites=true'
+    uri: 'mongodb://cvthang56th2:Tdymncg1996@ds121282.mlab.com:21282/cvthang'
   },
   redisOptions: {
     host: '127.0.0.1', // 13.228.4.248
