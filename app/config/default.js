@@ -12,7 +12,7 @@ config.web = {
     schemes: ['http']
   },
   connection: {
-    port: process.env.CMS_ADMIN_PORT || 9002,
+    port: 9002,
     router: {
       isCaseSensitive: false,
       stripTrailingSlash: true
