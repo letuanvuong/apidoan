@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build:server:once && npm-run-all --parallel nodemon:prod watch:server",
-    "build:server:once": "cross-env NODE_ENV=development webpack --config webpack.config.js",
-    "watch:server": "cross-env NODE_ENV=development webpack --inline --progress --config webpack.config.js --watch",
-    "nodemon:prod": "cross-env NODE_ENV=development nodemon --inspect build.js"
+    "build:server:once": "NODE_ENV=development webpack --config webpack.config.js",
+    "watch:server": "NODE_ENV=development webpack --inline --progress --config webpack.config.js --watch",
+    "nodemon:prod": "NODE_ENV=development nodemon --inspect build.js"
   },
   "author": "",
   "license": "ISC",
