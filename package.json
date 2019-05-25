@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:server:once && npm-run-all --parallel nodemon:prod watch:server",
+    "start": "npm run build:server:once && npm-run-all --parallel",
     "build:server:once": "webpack --config webpack.config.js",
-    "watch:server": "webpack --inline --progress --config webpack.config.js --watch",
-    "nodemon:prod": "nodemon --inspect build.js"
+    "watch:server": "webpack --inline --progress --config webpack.config.js --watch"
   },
   "author": "",
   "license": "ISC",
