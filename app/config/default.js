@@ -8,7 +8,7 @@ const Pack = require('./../../package')
 config.web = {
   name: Pack.name,
   swagger: {
-    host: 'https://boiling-plateau-83616.herokuapp.com:9002',
+    host: 'https://apidoan.herokuapp.com:9002',
     schemes: ['http']
   },
   connection: {
