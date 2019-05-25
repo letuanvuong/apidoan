@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build:server:once && npm-run-all --parallel run watch:server",
     "build:server:once": "webpack --config webpack.config.js",
-    "run": "node build.js",
+    "run": "nodemon --inspect build.js",
     "watch:server": "webpack --inline --progress --config webpack.config.js --watch"
   },
   "author": "",
