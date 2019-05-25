@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:server:once && npm-run-all --parallel",
+    "start": "npm run build:server:once && npm-run-all --parallel  watch:server",
     "build:server:once": "webpack --config webpack.config.js",
+    "run": "node build.js",
     "watch:server": "webpack --inline --progress --config webpack.config.js --watch"
   },
   "author": "",
@@ -23,6 +24,7 @@
     "mongoose": "^5.4.19",
     "mongoose-paginate": "^5.0.3",
     "nodemailer": "^6.1.0",
+    "nodemon": "^1.19.0",
     "vision": "^5.4.4"
   },
   "devDependencies": {
