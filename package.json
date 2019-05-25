@@ -7,8 +7,7 @@
     "start": "npm run build:server:once && npm-run-all --parallel nodemon:prod watch:server",
     "build:server:once": "webpack --config webpack.config.js",
     "watch:server": "webpack --inline --progress --config webpack.config.js --watch",
-    "nodemon:prod": "nodemon --inspect build.js",
-    "heroku-prebuild": "npm install --dev"
+    "nodemon:prod": "nodemon --inspect build.js"
   },
   "author": "",
   "license": "ISC",
