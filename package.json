@@ -21,7 +21,7 @@
     "joi": "^14.3.1",
     "joi-objectid": "^2.0.0",
     "lodash": "^4.17.11",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "mongoose-paginate": "^5.0.3",
     "nodemailer": "^6.1.0",
     "nodemon": "^1.19.0",
